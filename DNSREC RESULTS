@@ -1,0 +1,17 @@
+┌──(kali㉿kali)-[~]
+└─$ dnsrecon -d networkwalks.com
+2026-11-12T23:39:26.495270+0530 INFO Starting enumeration for domain: networkwalks.com
+2026-11-12T23:39:26.496299+0530 INFO std: Performing General Enumeration against: networkwalks.com...
+2026-11-12T23:39:27.023297+0530 ERROR No answer for DNSSEC query for networkwalks.com
+2026-11-12T23:39:27.600911+0530 INFO     SOA ns6135.hostgator.com 50.87.144.87
+2026-11-12T23:39:29.211626+0530 INFO     NS ns6136.hostgator.com 192.232.216.131
+2026-11-12T23:39:29.881697+0530 INFO     Bind Version for 192.232.216.131 "9.16.23-RH"
+2026-11-12T23:39:29.882086+0530 INFO     NS ns6135.hostgator.com 50.87.144.87
+2026-11-12T23:39:30.563900+0530 INFO     Bind Version for 50.87.144.87 "9.16.23-RH"
+2026-11-12T23:39:31.488508+0530 INFO     MX mail.networkwalks.com 192.232.216.135
+2026-11-12T23:39:31.865066+0530 INFO     A networkwalks.com 192.232.216.135
+2026-11-12T23:39:33.016284+0530 INFO     TXT networkwalks.com google-site-verification=rr04eRmqHoWY3XemnizDNVK4q75X-Ij-mjgEeg-UsYI
+2026-11-12T23:39:33.016683+0530 INFO     TXT networkwalks.com v=spf1 +a +mx +ip4:50.87.144.87 +include:websitewelcome.com ~all
+2026-11-12T23:39:33.723517+0530 INFO Enumerating SRV Records
+2026-11-12T23:39:42.627298+0530 ERROR No SRV Records Found for networkwalks.com
+2026-11-12T23:39:42.628393+0530 INFO Completed enumeration for domain: networkwalks.com
